@@ -1,0 +1,44 @@
+{
+  "name": "nodjs_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Mariam Karray",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "3.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "googleapis": "^126.0.1",
+    "helmet": "^7.0.0",
+    "mailtrap": "^3.2.0",
+    "mongodb": "^5.8.0",
+    "mongoose": "^7.4.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.0",
+    "nodemailer": "^6.9.4",
+    "pdfkit": "^0.13.0",
+    "pug": "^3.0.2",
+    "requirejs": "^2.3.6",
+    "saslprep": "^1.0.3",
+    "sequelize": "^6.32.1",
+    "stripe": "^13.6.0"
+  }
+}
